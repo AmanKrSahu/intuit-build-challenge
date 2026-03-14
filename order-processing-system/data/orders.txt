@@ -1,0 +1,21 @@
+OrderID|CustomerName|ProductName|Quantity|UnitPrice|OrderDate
+ORD001|John Smith|Laptop|2|999.99|2024-03-15
+ORD002|Jane Doe|Mouse|5|25.50|2024-03-16
+ORD003|John Smith|Keyboard|1|150.00|2024-03-16
+ORD004|Acme Corp|Monitors|10|350.00|2024-03-17
+ORD005|Bob Johnson|Desk|1|450.00|2024-03-18
+ORD006|Jane Doe|Headphones|2|199.99|2024-03-18
+ORD007|Acme Corp|Webcam|5|89.50|2024-03-19
+ORD008|Alice Fox|Microphone|1|120.00|2024-03-20
+ORD009|John Smith|Docking Station|1|250.00|2024-03-21
+ORD010|Bob Johnson|Chair|2|299.99|2024-03-21
+ORD011|Alice Fox|Tablet|3|499.00|2024-03-22
+ORD012|Acme Corp|Network Switch|2|550.00|2024-03-23
+ORD013|Jane Doe|USB Hub|4|30.00|2024-03-24
+ORD014|Jane Doe|Cables|10|15.00|2024-03-25
+ORD015|Bob Johnson|Monitor Arm|1|120.00|2024-03-26
+# Some malformed rows to test logging functionality
+ORD016|Bad Data Row Only 3 columns|Test
+ORD017|Missing Date|Laptop|1|1000.00|
+ORD018|NegativeQuantity|Widget|-5|20.00|2024-03-27
+ORD019|InvalidPrice|Gadget|2|XX|2024-03-28

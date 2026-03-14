@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intuit_order_processing"
+version = "0.1.0"
+description = "Order Processing and Invoice Summaries using Python"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Aman Kumar Sahu", email = "amankrsahu003@gmail.com"}
+]
+keywords = ["python", "project", "scaffold"]
+
+# Your project dependencies go here
+dependencies = [
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/AmanKrSahu/intuit-build-challenge/tree/main/order-processing-system"
+
+# ---------------------------------------------------------
+# Tool Configuration (Consolidate other config files here)
+# ---------------------------------------------------------
+
+# pytest configuration
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+
+# Black (formatter) configuration
+[tool.black]
+line-length = 88

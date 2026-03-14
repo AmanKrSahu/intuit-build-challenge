@@ -1,0 +1,7 @@
+transaction_id,date,region,salesperson,product_category,quantity,unit_price
+TX01,2026-01-01,North,Alice,Electronics,2,100.50
+TX02,2026-01-05,South,Bob,Clothing,5,20.00
+TX03,2026-01-15,North,Alice,Electronics,1,500.00
+TX04,2026-02-10,East,Charlie,Home,3,50.00
+TX05,2026-02-25,South,Bob,Electronics,1,250.00
+TX06,2026-03-01,East,Charlie,Clothing,10,15.50
